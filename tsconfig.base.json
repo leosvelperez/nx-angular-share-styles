@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-org/ui": ["libs/ui/src/index.ts"],
+      "@my-org/ui-buildable": ["libs/ui-buildable/src/index.ts"],
+      "@my-org/ui-publishable": ["libs/ui-publishable/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
